@@ -4,15 +4,14 @@ country_name = ['Azerbaijan', 'El Salvador', 'Bolivia', 'Paraguay', 'El Salvador
 time_to_raise = [193075.0, 1157108.0, 1552939.0, 244945.0, 238797.0, 1248909.0, 773599.0, 116181.0, 2288095.0, 51668.0, 26717.0, 48030.0, 1839190.0, 71117.0, 580401.0, 800427.0, 1156218.0, 1166045.0, 2924705.0, 470622.0, 24078.0, 260044.0, 445938.0, 201408.0, 2370450.0]
 num_lenders_total = [38, 18, 51, 3, 21, 1, 10, 8, 42, 1, 18, 6, 28, 5, 16, 7, 54, 1, 18, 22, 36, 12, 8, 24, 8]
 
-""" Level 1 Questions
-1) What is the total amount of money loaned?
-2) What is the average loan amount?
-3) What is the largest/smallest loan?
-4) What country got the largest/smallest loan?
-5) What is average number of lenders per loan?
-6) What is total number of loans made to the Philippines?
-7) For each unique country name, print a line that shows the name of the country and then the number of loans made in that country.
-"""
+#  Level 1 Questions
+# 1) What is the total amount of money loaned?
+# 2) What is the average loan amount?
+# 3) What is the largest/smallest loan?
+# 4) What country got the largest/smallest loan?
+# 5) What is average number of lenders per loan?
+# 6) What is total number of loans made to the Philippines?
+# 7) For each unique country name, print a line that shows the name of the country and then the number of loans made in that country.
 
 #1
 loan_total = 0
@@ -58,14 +57,13 @@ for country in range(len(unique_countries)):
 
 
 
-""" Level 2 Questions
-1) What is the average amount of loans made to people in the Philippines?
-2) In which country was the loan granted that took the longest to fund?
-3) What is the average amount of time / dollar it takes to fund a loan?
-4) What is the standard deviation of the money loaned? The Empirical Rule or 68-95-99.7% Rule 
-reminds us that 68% of the population falls within 1 standard deviation. Does this hold for our data?
-5) Calculate the pearson correlation between the loan_amount and the num_lenders_total.
-"""
+#   Level 2 Questions
+# 1) What is the average amount of loans made to people in the Philippines?
+# 2) In which country was the loan granted that took the longest to fund?
+# 3) What is the average amount of time / dollar it takes to fund a loan?
+# 4) What is the standard deviation of the money loaned? The Empirical Rule or 68-95-99.7% Rule 
+# reminds us that 68% of the population falls within 1 standard deviation. Does this hold for our data?
+# 5) Calculate the pearson correlation between the loan_amount and the num_lenders_total.
 
 #1
 #The index positions for the Phillipines are [5, 6, 9, 11, 13, 14, 22]
