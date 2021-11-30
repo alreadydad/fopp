@@ -98,7 +98,6 @@ print('Standard deviation of the loan_amount: {0:.2f}'.format(loan_stdev))
 
 #5
 num_lenders_average = sum(num_lenders_total) / len(num_lenders_total)
-print(num_lenders_average)
 covariance = 0
 covariance_nominator = 0
 
