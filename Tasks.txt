@@ -8,3 +8,9 @@ draw the polygon and then fill it in.
 
 2) XKCD model of selecting four random words and 
 concatenating them together to for our password.
+
+3) Kiva is an international nonprofit, founded in 2005
+and based in San Francisco, with a mission to connect 
+people through lending to alleviate poverty. The following 
+table contains some data that we will use to practice on some
+basic descriptive statistics that are commonly used in data science.
